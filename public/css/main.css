@@ -1,0 +1,646 @@
+body {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header {
+    position: relative;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 5;
+}
+
+.cst_pd {
+    max-width: 1620px;
+    margin: 0 auto;
+}
+
+/*Section Main*/
+.navList {
+    display: flex;
+}
+
+.navBlock {
+    padding: 15px 50px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    transition: .1s;
+}
+
+.navBlock.active {
+    background: #ffffff;
+    color: #3237D8;
+}
+
+.navList a {
+    text-decoration: none;
+}
+
+.navBlock:hover {
+    background: rgba(355, 355, 355, 90%);
+    color: #3237D8;
+}
+
+.alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    height: 100vh;
+    background: linear-gradient(102.23deg, #0060F2 0.83%, #1549E6 45.38%, #4D27CC 98.91%);
+}
+
+.main_footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 15%;
+    background: white;
+    border-radius: 200% / 50% 50% 0 0;
+    font-weight: 700;
+    font-size: 30px;
+    color: #124CE8;
+}
+
+
+
+/*Басты бет*/
+.homePage {
+    position: relative;
+    z-index: 2;
+    1 font-family: 'Montserrat';
+    margin-top: 187px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.homePage h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.homePage p {
+    margin: 0;
+}
+
+.homePage .p {
+    margin: 25px 0;
+}
+
+.btn.mainBtn {
+    background: #3AF22A;
+    border-color: #3AF22A;
+    width: 350px;
+    height: 40px;
+}
+
+.mountainItem {
+    position: absolute;
+    z-index: 1;
+}
+
+.v1 {
+    width: 839px;
+    height: 523px;
+    background: url(/images/gora.png) center/auto 96% no-repeat;
+    background-position: 50% 50%;
+    top: 150px;
+    right: 0;
+    display: block;
+}
+
+.v2 {
+    width: 1179px;
+    height: 825px;
+    background: url(/images/cloudAll.png) center/auto 105% no-repeat;
+    background-position: 50% 50%;
+    top: 0;
+    right: 0;
+}
+
+.btn_white {
+    display: none;
+    width: 120px;
+    height: 40px;
+    color: #3237D8;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    background: #FFFFFF;
+    border-radius: 6.62698px;
+    margin-bottom: 18px;
+}
+
+/*АВТОРИЗАЦИЯ және контакт беті*/
+.auth,
+.signUp {
+    position: relative;
+    z-index: 2;
+    width: 620px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.loginPage,
+.signUp {
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+
+.loginPage h2,
+.signUp h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.loginPage p,
+.signUp p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 60px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 450px;
+    height: 57px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    border: none;
+}
+
+.form input::placeholder {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #010101;
+    font-weight: 400;
+}
+
+.btn-green {
+    margin-top: 18px;
+    background: #3AF22A;
+    border-radius: 8px;
+    width: 168px;
+    height: 56px;
+    color: #FFFFFF;
+}
+
+.btn-green:hover {
+    background: #39DC2B;
+    color: #FFFFFF;
+}
+
+.contactUs button {
+    width: 302px;
+}
+
+/*openwait test беті*/
+.openwait {
+    width: 630px;
+}
+
+.openSans {
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+    flex-direction: column;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.openSans p {
+    margin: 0;
+}
+
+.openSans span {
+    font-size: 58px;
+    line-height: 71px;
+}
+
+/*mobileMenu*/
+.mobileMenu {
+    position: fixed;
+    bottom: 10px;
+    z-index: 6;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 350px;
+    display: none;
+    justify-content: space-around;
+    padding: 0 25px;
+    flex-direction: row;
+    background: #F9FBFF;
+    box-shadow: 1px 0px 10px rgba(42, 139, 242, 0.45), 0px 0px 10px rgba(42, 139, 242, 0.55), 4px 0px 25px rgba(42, 139, 242, 0.75);
+    border-radius: 20px;
+}
+
+.mob_nav {
+    height: 90px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mob_active {
+    height: 3px;
+    width: 100%;
+    background: none;
+    border-radius: 3px;
+}
+
+.mob_nav.active .mob_active {
+    background: #104EE9;
+    box-shadow: 1px 0px 10px rgba(16, 78, 233, 0.45), 0px 0px 10px rgba(16, 78, 233, 0.55), 4px 0px 25px rgba(16, 78, 233, 0.75);
+}
+
+.mob_nav_item {
+    width: 36px;
+    height: 36px;
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.m1 {
+    background-image: url('/images/frame.svg');
+    background-size: 75%;
+}
+
+.m2 {
+    background-image: url('/images/Books.svg');
+}
+
+.m3 {
+    background-image: url('/images/Oven.svg');
+}
+
+.m4 {
+    background-image: url('/images/person.svg');
+}
+
+.mob_nav.active .m1 {
+    background-image: url('/images/frame2.svg');
+    background-size: 75%;
+}
+
+.mob_nav.active .m2 {
+    background-image: url('/images/Books2.svg');
+}
+
+.mob_nav.active .m3 {
+    background-image: url('/images/Oven2.svg');
+}
+
+.mob_nav.active .m4 {
+    background-image: url('/images/person2.svg');
+}
+
+@media(min-width: 1921px) {
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    .v1 {
+        right: auto;
+        margin-left: 853px;
+    }
+
+    .v2 {
+        right: auto;
+        margin-left: 587px;
+    }
+
+    .main_footer {
+        max-width: 1920px;
+    }
+}
+
+@media(max-width: 1750px) {
+    .cst_pd {
+        min-width: 100%;
+        margin: 0;
+        padding-right: 65px;
+        padding-left: 65px;
+    }
+}
+
+@media(max-width: 1599px) {
+    .v2 {
+        width: 80vw;
+        height: 100vh;
+    }
+
+    .loginPage,
+    .signUp {
+        margin-top: 40px;
+    }
+
+    .loginPage p,
+    .signUp p {
+        margin-bottom: 30px;
+    }
+
+    .btn-green {
+        margin-top: 0px;
+    }
+
+    .main_footer {
+        height: 12.5%;
+    }
+
+    .homePage {
+        margin-top: 135px;
+    }
+
+    .openSans {
+        margin-top: 155px;
+    }
+
+    .form input {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 1399px) {
+    .navBlock {
+        padding: 15px 40px;
+    }
+
+    .v1 {
+        height: 490px;
+    }
+
+    .form input {
+        width: 400px;
+        height: 50px;
+    }
+
+    .loginPage p,
+    .signUp p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .loginPage h2,
+    .signUp h2 {
+        font-size: 37px;
+    }
+
+    .openSans {
+        font-size: 24px;
+    }
+
+    .openSans span {
+        font-size: 50px;
+        line-height: 62px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .navBlock {
+        padding: 15px 30px;
+    }
+
+    .v1 {
+        height: 420px;
+        width: 770px;
+        margin-top: 0px;
+        top: 135px;
+    }
+    .v2 {
+    width: 100vw;
+    height: 100vh;
+}
+    .openSans {
+        font-size: 20px;
+    }
+
+    .openSans span {
+        font-size: 44px;
+        line-height: 50px;
+    }
+
+    .openwait {
+        width: 496px;
+    }
+
+    .loginPage,
+    .signUp {
+        margin-top: 30px;
+    }
+
+    .loginPage h2,
+    .signUp h2 {
+        font-size: 32px;
+    }
+
+    .loginPage p,
+    .signUp p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 20px;
+    }
+
+    .homePage h1 {
+        font-size: 34px;
+    }
+
+    .homePage .p {
+        margin: 15px 0;
+    }
+
+    .homePage {
+        font-size: 14px;
+        margin-top: 111px;
+    }
+
+    .main_footer {
+        font-size: 26px;
+    }
+
+    .auth,
+    .signUp {
+        width: auto;
+        display: inline-block;
+    }
+}
+
+@media(max-width: 991px) {
+    .navBlock {
+        font-size: 16px;
+    }
+
+    header img {
+        width: 175px;
+    }
+
+    .openSans {
+        margin-top: 150px;
+    }
+
+    .v1 {
+        height: 58vh;
+        width: 60vw;
+    }
+
+    .v2 {
+        width: 88vw;
+        height: 100vh;
+    }
+
+    .homePage h1 {
+        font-size: 30px;
+    }
+
+    .homePage {
+        margin-top: 91px;
+        width: 531px;
+    }
+
+    .main_footer {
+        font-size: 22px;
+    }
+
+    .loginPage h2,
+    .signUp h2 {
+        font-size: 28px;
+    }
+
+    .form input {
+        margin-bottom: 15px;
+        width: 350px;
+    }
+}
+
+@media(max-width: 917px) {
+    .homePage h1 {
+        font-size: 26px;
+    }
+
+    .homePage {
+        margin-top: 72px;
+        width: 442px;
+    }
+
+    .btn.mainBtn {
+        font-size: 14px;
+        width: 266px;
+    }
+
+    .main_footer {
+        font-size: 20px;
+    }
+
+    .openSans {
+        margin-top: 95px;
+    }
+
+    .openSans span {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+}
+
+@media(max-width: 871px) {
+    .navBlock {
+        padding: 10px 15px;
+    }
+
+    header img {
+        width: 141px;
+    }
+
+    .loginPage h2,
+    .signUp h2 {
+        font-size: 24px;
+    }
+
+    .loginPage p,
+    .signUp p {
+        font-size: 12px;
+    }
+
+    .form input {
+        width: 310px;
+    }
+
+}
+
+@media(max-width: 769px) {
+    .v2 {
+        width: 100vw;
+        height: 63vh;
+        background-position: 50% 400%;
+    }
+    header {
+    padding-top: 50px;
+        margin-bottom: 100px;
+}
+    header img {
+    width: 122px;
+}
+    .v1 {
+    width: 100%;
+    height: 163px;
+    position: relative;
+    top: auto;
+    right: auto;
+}
+    .navList {
+        display: none;
+    }
+
+    .main_footer {
+        display: none;
+    }
+
+    .homePage {
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+    .auth,
+    .signUp {
+        width: 100%;
+    }
+
+    .intro {
+        height: 100vh;
+    }
+
+    .openwait {
+        width: 100%;
+    }
+
+    .btn_white {
+        display: inline-block;
+    }
+
+    .mobileMenu {
+        display: flex;
+    }
+}
